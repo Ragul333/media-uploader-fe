@@ -32,7 +32,7 @@ const UploadFile = () => {
             })
             setPostData('');
             setLoading(false);
-            navigate('/home')
+            navigate('/')
         }
         
         return <div className='col-md-6 mt-2 mx-auto upload-box'>

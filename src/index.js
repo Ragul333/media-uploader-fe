@@ -19,7 +19,7 @@ const appRouter = createBrowserRouter([
         element: <UploadFile />
       },
       {
-        path: '/home',
+        path: '/',
         element: <Uploads />
       }
     ]
